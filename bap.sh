@@ -121,7 +121,7 @@ read -p "Giới hạn thiết bị :" DeviceLimit
   echo "-------------------------------"
   
   #CertDomain:
-read -p "CertDomain:" CertDomain
+read -p "Ip hoặc sub domain:" CertDomain
   [ -z "${CertDomain}" ] && CertDomain="0"
   echo "-------------------------------"
   echo "CertDomain: ${CertDomain}"
